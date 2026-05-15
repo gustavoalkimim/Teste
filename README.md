@@ -2,13 +2,44 @@
 
 # Soc Ops
 
-Social Bingo game for in-person mixers. Find people who match the questions and get 5 in a row!
+**Soc Ops** is a playful social bingo app built for in-person team mixers and event icebreakers. Challenge your group to find people who match the prompts, then race to complete 5 in a row.
 
-📚 **[View Lab Guide](workshop/GUIDE.md)**
+> A lightweight Spring Boot game experience with a clean web UI and a hands-on workshop guide for building collaborative apps.
 
 ---
 
-## 📚 Lab Guide
+## ✨ Why this project?
+
+- **Interactive icebreakers** for meetups, workshops, and team-building events
+- **Easy deployment** with Maven and a small Spring Boot backend
+- **Designed for learning**, with workshop content documenting design, agent workflows, and frontend experience
+- **Multilingual landing page** support in Portuguese and Spanish
+
+---
+
+## 🚀 Quick start
+
+```bash
+cd socops
+./mvnw spring-boot:run
+```
+
+Then open `http://localhost:8080` in your browser.
+
+---
+
+## 💡 Features
+
+- Social bingo game board for real-world icebreaker activities
+- Simple web-based experience using Spring Boot templates and static assets
+- Build-ready Java app with included Maven Wrapper
+- Workshop-driven learning path for development and collaboration
+
+---
+
+## 🧭 Workshop guide
+
+Follow the step-by-step lab to explore project architecture, frontend design, and multi-agent development.
 
 | Part | Title |
 |------|-------|
@@ -22,30 +53,26 @@ Social Bingo game for in-person mixers. Find people who match the questions and 
 
 ---
 
-## Prerequisites
-
-- [Java 21 JDK](https://adoptium.net/) or higher
-- [Apache Maven 3.9+](https://maven.apache.org/) (or use the included Maven Wrapper)
-
-## Run
-
-```bash
-cd socops
-./mvnw spring-boot:run
-```
-
-## Build
+## ✅ Build & test
 
 ```bash
 cd socops
 ./mvnw clean package
 ```
 
-## Test
-
 ```bash
 cd socops
 ./mvnw test
 ```
 
+---
+
+## 📦 Deployment
+
 Deploys automatically to GitHub Pages on push to `main`.
+
+---
+
+## 📣 Get involved
+
+If you want to expand the game prompts, add a richer UI, or turn this into a remote-friendly social game, this project is a great starting point.
